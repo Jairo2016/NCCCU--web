@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NCCCU - Nodo de Coherencia Global</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; background-color: #000; color: #fff; }
+        h1 { color: #00ffcc; }
+        #coherencia { font-size: 24px; margin-top: 20px; }
+        .boton { background: #00ffcc; padding: 10px 20px; border: none; cursor: pointer; font-size: 18px; }
+    </style>
+</head>
+<body>
+
+    <h1>Nodo de Coherencia Colectiva Creadora Universal</h1>
+    <p>Conéctate y sincroniza tu conciencia con el universo</p>
+
+    <button class="boton" onclick="conectar()">Activar Conexión</button>
+    <div id="coherencia">Estado de Coherencia Global: 🔄 Cargando...</div>
+
+    <script>
+        function conectar() {
+            document.getElementById("coherencia").innerHTML = "Coherencia Global: 🌀 Sincronizado...";
+        }
+    </script>
+
+</body>
+</html>
